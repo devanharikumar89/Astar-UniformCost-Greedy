@@ -1,0 +1,10 @@
+commands:
+
+javac SearchUSA.java
+java SearchUSA <searchmethod> <srccity> <destcity>
+
+THE usroads.pl file attached should be in the same directory as the .java and .class files.
+
+allowed <searchmethod>'s are astar, uniformcost, and greedy
+search method, src city and dest city are all case sensitive.
+The algorithm outputs the expanded cities and the cities in the path in the end
